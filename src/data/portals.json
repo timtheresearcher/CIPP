@@ -5,7 +5,8 @@
     "url": "https://admin.microsoft.com/Partner/BeginClientSession.aspx?CTID=customerId&CSDEST=o365admincenter",
     "variable": "customerId",
     "target": "_blank",
-    "external": true
+    "external": true,
+    "icon": "GlobeAltIcon"
   },
   {
     "label": "Exchange Portal",
@@ -13,7 +14,8 @@
     "url": "https://admin.exchange.microsoft.com/?landingpage=homepage&form=mac_sidebar&delegatedOrg=defaultDomainName#",
     "variable": "defaultDomainName",
     "target": "_blank",
-    "external": true
+    "external": true,
+    "icon": "Mail"
   },
   {
     "label": "Entra Portal",
@@ -21,7 +23,8 @@
     "url": "https://entra.microsoft.com/defaultDomainName",
     "variable": "defaultDomainName",
     "target": "_blank",
-    "external": true
+    "external": true,
+    "icon": "UsersIcon"
   },
   {
     "label": "Teams Portal",
@@ -29,7 +32,8 @@
     "url": "https://admin.teams.microsoft.com/?delegatedOrg=defaultDomainName",
     "variable": "defaultDomainName",
     "target": "_blank",
-    "external": true
+    "external": true,
+    "icon": "FilePresent"
   },
   {
     "label": "Azure Portal",
@@ -37,7 +41,8 @@
     "url": "https://portal.azure.com/defaultDomainName",
     "variable": "defaultDomainName",
     "target": "_blank",
-    "external": true
+    "external": true,
+    "icon": "ServerIcon"
   },
   {
     "label": "Intune Portal",
@@ -45,7 +50,17 @@
     "url": "https://intune.microsoft.com/defaultDomainName",
     "variable": "defaultDomainName",
     "target": "_blank",
-    "external": true
+    "external": true,
+    "icon": "Laptop"
+  },
+  {
+    "label": "SharePoint Admin",
+    "name": "SharePoint_Admin",
+    "url": "https://admin.microsoft.com/Partner/beginclientsession.aspx?CTID=customerId&CSDEST=SharePoint",
+    "variable": "customerId",
+    "target": "_blank",
+    "external": true,
+    "icon": "Share"
   },
   {
     "label": "Security Portal",
@@ -53,14 +68,16 @@
     "url": "https://security.microsoft.com/?tid=customerId",
     "variable": "customerId",
     "target": "_blank",
-    "external": true
+    "external": true,
+    "icon": "Shield"
   },
   {
-    "label": "Sharepoint Admin",
-    "name": "Sharepoint_Admin",
-    "url": "https://admin.microsoft.com/Partner/beginclientsession.aspx?CTID=customerId&CSDEST=SharePoint",
+    "label": "Compliance Portal",
+    "name": "Compliance_Portal",
+    "url": "https://purview.microsoft.com/?tid=customerId",
     "variable": "customerId",
     "target": "_blank",
-    "external": true
+    "external": true,
+    "icon": "ShieldMoon"
   }
 ]
